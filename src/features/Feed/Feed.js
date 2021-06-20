@@ -40,6 +40,7 @@ class FeedItem extends Component {
         <div className={classes.buttons}>
           <Button raised color="primary" onClick={this.props.onClick}>Primary</Button>
           <Button raised color="accent" onClick={this.props.onClick}>Secondary Button</Button>
+          <Button raised color="accent" onClick={this.props.onClick}>Secondary Button</Button>
         </div>
       </Paper>
     )
